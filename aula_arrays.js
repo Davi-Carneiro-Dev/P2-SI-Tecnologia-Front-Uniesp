@@ -21,3 +21,36 @@ console.log(frutas.length);
 //.unshift(elemento):Adiciona elemento no inicio do array.
 //.shift():Remove elemento no início do array.
 
+//Percorrendo Array Usando For
+let celulares = ["Iphone","Samsung","Xiaomi","Huawei"];
+for (let i = 0; i < celulares.length; i++ ) {
+    console.log(celulares[i]);
+}
+//Saída: Iphone Samsung Xiaomi Huawei
+
+//For in Indices do Array
+let plantas = ["Manjericão","Hortelã","Babosa"];
+for (let indice in frutas)  {
+    console.log(`Indice: ${indice}, Valor ${plantas[indice]}"`);
+}
+
+//For of Itera Diretamente os Valores
+let = sanduiches = ["MCdonalds","Bobs","Bk"];
+
+for (let sanduiche of sanduiches)  {
+    console.log(`Sandubas ${sanduiches}`);
+}
+
+//Arrays Multidimensionais
+let matriz = [
+    [1,2,3]
+    [4,5,6]
+    [7,8,9]
+];
+console.log(matriz[1][2]);
+//Saída = 6
+
+//Novo Array Transformado (.map)
+
+
+
